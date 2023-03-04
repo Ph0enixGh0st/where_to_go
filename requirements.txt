@@ -7,7 +7,7 @@ flake8==5.0.4
 marshmallow==3.14.1
 mccabe==0.7.0
 packaging==21.3
-Pillow==9.4.0
+Pillow==8.4.0
 pycodestyle==2.10.0
 pyflakes==3.0.1
 python-dotenv==1.0.0
