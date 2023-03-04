@@ -1,5 +1,5 @@
 asgiref==3.4.0
-Django==4.1.6
+Django==3.2.18
 django-admin-sortable2==2.1.4
 django-tinymce==3.5.0
 environs==9.5.0
