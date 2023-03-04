@@ -3,7 +3,7 @@ Django==3.2.18
 django-admin-sortable2==2.1.4
 django-tinymce==3.5.0
 environs==9.5.0
-flake8==6.0.0
+flake8==5.0.4
 marshmallow==3.19.0
 mccabe==0.7.0
 packaging==23.0
