@@ -16,7 +16,7 @@ class Venue(models.Model):
 
 class VenuePhoto(models.Model):
     venue = models.ForeignKey(Venue, on_delete=models.CASCADE, related_name='images')
-    image = models.ImageField(upload_to='venue_pics', blank=True, null=True)
+    image = models.ImageField(upload_to='venue_pics')
     order = models.PositiveIntegerField('Order #', null=True, blank=True)
 
     class Meta:
