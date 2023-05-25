@@ -22,9 +22,5 @@ class VenuePhoto(models.Model):
     class Meta:
         ordering = ('order', )
 
-    @property
-    def show_order_venue(self):
-        return f'{self.order}: {self.venue}'
-
     def __str__(self):
         return f'Photo #{self.order} from {self.venue}'
