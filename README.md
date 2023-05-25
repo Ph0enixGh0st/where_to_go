@@ -57,6 +57,7 @@ python3 -m venv venv
 pip3 install -r requirements.txt
 ```
 Create `.env` file and set environment variables without whitespaces:
+'''
 - SECRET KEY=your_project_secret_key
 - DEBUG=False
 - MEDIA_ROOT=media/
@@ -64,6 +65,7 @@ Create `.env` file and set environment variables without whitespaces:
 - STATIC_URL=/static/
 - ALLOWED_HOSTS=[]
 - STATIC_ROOT=assets
+'''
 
 - Create superuser:
 ```
