@@ -57,13 +57,13 @@ python3 -m venv venv
 pip3 install -r requirements.txt
 ```
 Create `.env` file and set environment variables without whitespaces:
-- `SECRET KEY` = your project secret key:
-- `DEBUG` = to enable debug mode set value to `True`, otherwise False would be the better option;
-- `MEDIA_ROOT` = you can set your path to your media files here, default = `media/`;
-- `MEDIA_URL` = default = `/media/`;
-- `STATIC_URL` = default = `/static/`;
-- 'ALLOWED_HOSTS' = default = [];
-- 'STATIC_ROOT' = default = assets;
+- SECRET KEY=your_project_secret_key
+- DEBUG=False
+- MEDIA_ROOT=media/
+- MEDIA_URL=/media/
+- STATIC_URL=/static/
+- ALLOWED_HOSTS=[]
+- STATIC_ROOT=assets
 
 - Create superuser:
 ```
